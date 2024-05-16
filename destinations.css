@@ -1,0 +1,93 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #e7d5de; /* Pink background color */
+    color: rgb(133, 132, 132);
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 0;
+  }
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .logo img {
+    width: 150px; /* Adjust size as needed */
+  }
+  
+  .menu ul {
+    list-style: none;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .menu ul li a {
+    color: rgb(219, 16, 16);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .menu ul li a:hover {
+    color: #ff69b4; /* Pink color on hover */
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .destination {
+    width: 1155px;
+    margin-bottom: 20px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .destination img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 0.5in;
+    margin-bottom: 0.5in;
+  }
+  
+  .destination-info {
+    background-color: #e25a5a; /* Light gray background color */
+    padding: 1155x;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .destination-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .destination-info p {
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4; /* Pink button color */
+    color: rgb(224, 18, 18);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
